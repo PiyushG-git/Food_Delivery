@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
  "scripts": {
-  "startServer": "node index.js"
+  "startServer": "node server.js"
 },
   "author": "",
   "license": "ISC",
