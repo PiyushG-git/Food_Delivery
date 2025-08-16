@@ -13,7 +13,6 @@ const authMiddleware = async(req,res,next) => {
     } catch (error){
         console.log(error);
         return res.json({success:false,message:"Not Authorized Login Again"})
-        
     }
 }
 

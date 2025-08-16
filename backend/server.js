@@ -25,6 +25,8 @@ app.use("/api/user",userRouter)
 app.use("/api/cart",cartRouter)
 app.use("/api/order",orderRouter)
 
+
+
 app.get("/",(req,res)=>{
     res.send("API Working")
 })
@@ -32,5 +34,6 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`Server is started on http://localhost:${port}`)
 })
+
 
 //mongodb+srv://piyushg251004:FoodDelivery@cluster0.rsesupy.mongodb.net/?

@@ -5,6 +5,8 @@ import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownlaod/AppDownload'
 const Home = () => {
+
+    //use in ExploreMenu
     const [category,setCategory] = useState("All");
   return (
     <div>
