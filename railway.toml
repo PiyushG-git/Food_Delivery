@@ -1,6 +1,7 @@
 [build]
 builder = "nixpacks"
 buildCommand = "cd backend && npm install"
+nixpacksPkgs = ["nodejs", "npm"]
 
 [start]
 startCommand = "cd backend && npm run startServer"
